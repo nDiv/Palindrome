@@ -1,2 +1,2 @@
 # Palindrome
-A python script for playing around with Palindromic integers
+A Python script for playing around with Palindromic integers
