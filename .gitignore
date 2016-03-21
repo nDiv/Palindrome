@@ -1,1 +1,8 @@
+# no files inside __pycache__ created by python
 __pycache__
+
+# no .asv files created by Matlab
+*.asv
+
+# no files ending with ~
+*~
