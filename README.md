@@ -1,5 +1,5 @@
 # Palindrome
-A Python script for playing around with Palindromic integers.
+A package for playing around with Palindromic integers.
 
 The current Python version of sumPalindrome takes about 23.6 hours for an input of 10^12. The answer is 495576157738819851. We can do much better than this. This code needs to be optimized.
 
