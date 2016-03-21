@@ -97,7 +97,7 @@ def nextPal(currentP): #Used by NextPalindrome to find the next Palindrome for o
 					return left + left[::-1]
 	else: #The odd case
 		j = int((n-1)/2)
-		left = currentP[0:j+1] #The left part of the digits part
+		left = currentP[0:j+1] #The left part of the digits part, including the odd term.
 		right = currentP[j+1:n] #The right part of the digits part
 		l = j-1
 		r = 0
