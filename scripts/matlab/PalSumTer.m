@@ -3,7 +3,7 @@ function sumPal = PalSumTer(max_val)
 %   Detailed explanation goes here
 tic
 sumPal = 0;
-if(max_val < 11)
+if(max_val < 10)
     return
 end
 i=10;
@@ -13,9 +13,9 @@ while(i<max_val)
     
     if(max_val<Pnext)
         d = Pnext - max_val;
-        S = sum(dToNext:-1:dToNext-(dToNext-d-1));
+        S = sum(dToNext-d-1:dToNext);
     else
-        S = sum(dToNext:-1:1);
+        S = sum(1:dToNext);
     end
     sumPal = sumPal + S;
     i = i + dToNext+1;
